@@ -2,7 +2,6 @@ import React from "react";
 import "../css/Navbar.css";
 import { RiHome6Fill } from "react-icons/ri";
 import { FaAngleDown } from "react-icons/fa";
-import { AiOutlineMenuFold, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   return (
