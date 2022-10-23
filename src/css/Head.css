@@ -1,0 +1,38 @@
+.head-container {
+  width: 100%;
+  height: auto;
+  /* background-color: brown; */
+}
+.head {
+  width: 80%;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head h3 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.head-child {
+  padding: 4px 10px;
+  border: 1px solid rgb(190, 187, 187);
+  background-color: #fff;
+  border-radius: 6px;
+  font-size: 13px;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+.head-child span {
+  display: flex;
+  align-items: center;
+}
+.head-child span:last-child {
+  margin-left: 20px;
+  color: blueviolet;
+  padding: 4px;
+  border-radius: 8px;
+  background-color: rgb(221, 213, 213);
+}

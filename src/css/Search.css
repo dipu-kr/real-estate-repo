@@ -1,0 +1,94 @@
+.search-container {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.search {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 5px;
+}
+.search-div-1 {
+  flex: 1;
+  padding: 12px;
+}
+.search-div-1 p {
+  color: rgb(184, 176, 176);
+  text-transform: capitalize;
+}
+
+.search-div-2 {
+  flex: 1;
+  padding: 12px;
+  border-right: 0.5px solid lightgray;
+  border-left: 0.5px solid lightgray;
+}
+.search-div-2 p {
+  color: rgb(184, 176, 176);
+  text-transform: capitalize;
+}
+.search-div-2 input {
+  width: 190px;
+  height: 40px;
+  border: 1px solid lightgray;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.search-div-2 input[type="date"] {
+  color: gray;
+}
+.search-div-3 {
+  flex: 1;
+  padding: 12px;
+}
+.search-div-3 p {
+  color: rgb(184, 176, 176);
+  text-transform: capitalize;
+}
+.search-div-3 .select-box {
+  width: 140px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.search-div-4 {
+  flex: 1;
+  padding: 12px;
+  border-right: 0.5px solid lightgray;
+  border-left: 0.5px solid lightgray;
+}
+.search-div-4 p {
+  color: rgb(184, 176, 176);
+  text-transform: capitalize;
+}
+.search-div-4 select {
+  width: 140px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.search-div-5 {
+  flex: 1;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-div-5 button {
+  padding: 9px 26px;
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 7px;
+  cursor: pointer;
+}
