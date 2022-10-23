@@ -74,3 +74,25 @@
   border-radius: 6px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .nav-container {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    border-bottom: 0.5px solid gray;
+  }
+  .logo {
+    margin-left: 15px;
+  }
+  .nav-left-div {
+    width: 100%;
+  }
+  .ul-list {
+    display: none;
+  }
+  .nav-right-div {
+    display: none;
+  }
+}

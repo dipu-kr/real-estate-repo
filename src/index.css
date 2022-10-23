@@ -24,3 +24,7 @@ code {
   background-color: rgb(221, 218, 218);
   padding-bottom: 40px;
 }
+.app {
+  width: 100%;
+  overflow: hidden;
+}

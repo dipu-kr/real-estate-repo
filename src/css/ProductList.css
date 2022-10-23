@@ -95,3 +95,13 @@
   justify-content: center;
   flex-direction: column;
 }
+
+/* --------------media query---------------- */
+@media screen and (max-width: 600px) {
+  .product-item {
+    width: 100%;
+  }
+  .no-result-found {
+    width: 100%;
+  }
+}

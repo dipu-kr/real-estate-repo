@@ -36,3 +36,19 @@
   border-radius: 8px;
   background-color: rgb(221, 213, 213);
 }
+
+/* -----------media query--------- */
+@media screen and (max-width: 600px) {
+  .head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .head h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}

@@ -92,3 +92,16 @@
   border-radius: 7px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .search {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .search-div-2 input {
+    width: 100%;
+  }
+}
