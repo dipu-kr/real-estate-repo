@@ -1,14 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "../css/Navbar.css";
 import { RiHome6Fill } from "react-icons/ri";
 import { FaAngleDown } from "react-icons/fa";
 import { AiOutlineMenuFold, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState(false);
-  const menuControl = () => {
-    setMenu(!menu);
-  };
   return (
     <div className="nav-container">
       <div className="nav-left-div">
@@ -16,14 +12,6 @@ const Navbar = () => {
           <RiHome6Fill className="logo-icon" />
           Estatery
         </h2>
-
-        <div className="menu-div" onClick={menuControl}>
-          {menu ? (
-            <AiOutlineClose className="close-icon" />
-          ) : (
-            <AiOutlineMenuFold className="open-icon" />
-          )}
-        </div>
 
         <ul className="ul-list">
           <li>rent</li>
